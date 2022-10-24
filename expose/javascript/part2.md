@@ -6,3 +6,7 @@
 6. There will be an error: ReferenceError: discountedPrice is not defined. This is because discountedPrice is let type,and its type is only inside for loop.
 7. It will print 150. Since finalPrice and the command to access this variable is in the same scope, and this variable's value is updated in the for loop, finalPrice will take the last value updated in for loop. 
 8. It will return discounted array with value [50,100,150], since the content of discounted array is updated in the for loop inside the function.
+9. There will be an error: ReferenceError: i is not defined. This is because i is type let, and its scope is only in for loop, where it's defined.
+10. It will print length of prices array, which is 3. That's because variable "length" and the command to access it are in the same scope. 
+11. It will return discounted array with value [50,100,150]. Although the type of this array is const, we can still manipulate it, and three values are pushed into the array with the function call. 
+12. A. student.name B. student["Grad year"] C. student.greeting.call() D. student["Favorate Teacher"].name E.student.courseLoad[0]
