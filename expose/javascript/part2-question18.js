@@ -3,5 +3,6 @@ function time(){
     let time = d.toLocaleTimeString();
     console.log(time);
 }
-setInterval(time,1000);
+var ID=setInterval(time,1000);
+setTimeout(function(){clearInterval(ID);},10000);
 

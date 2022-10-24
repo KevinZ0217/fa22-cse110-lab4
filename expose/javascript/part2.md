@@ -30,3 +30,5 @@
 15. '==' is used when you only compare the value but not the type, since it will return true when the values are the same but types are different; '===' is used when you want to compare both value and type. It returns true only when both values and datatypes of both operends are the same. 
 
 17. It will return the array [2,4,6]. Here we are passing the function doSomething as a parameter, multiplying every element in array parameter before pushing them into the newArr.
+
+19. The output is in the order 1 4 3 2. 
